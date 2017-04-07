@@ -5,31 +5,31 @@ orgs/users, issues), minor table updates, and task lists.
 
 ## Format All The Things :bangbang:
 
-*Italic* can be `*` or `_` _surrounded_, and **bold** is double **surrounded.
+*Italic* can be `*` or `_` _surrounded_, and **bold** is double **surrounded**.
 _You **can** combine them_. This is a single para even with a single hard
-return in between lines.  Only some Markdown ~~strikesthru~~.
+return in between three lines.  Only some Markdown ~~strikesthru~~.
 
 Full blank line above makes new para.  Markdown code can be escaped 
 with the obvious `\` backslash, like: this \*escapes markdown syntax\* and \|our-old-project\|.
 
 [GH magically links](bootstrap3.html) with relative files within a repo, cross-branch sometimes.
-User alerting is both @curcuru - me on local repos; @apache/curcuru - me in the org.
-
-![The Lovely Octdrey Catburn](https://octodex.github.com/images/octdrey-catburn.jpg)
-> Octdrey Catburn picture
+User alerting is both @ShaneCurcuru - me on local repos; @apache/ShaneCurcuru - me in the org.
 
 > There's never enough time to do all the nothing you want. `>blockquote` on one line -- Calvin 
 
 > You know what we need, Hobbes? We need an attitude. Yeah, you can't 
-  be cool if you don't have an attitude.	`>blockquote` on first line, second indented -- Calvin
+be cool if you don't have an attitude.	`>blockquote` on first line only -- Calvin
 
 > Sometimes I think the surest sign that intelligent life exists 
 > elsewhere in the universe is that none of it has tried to 
 > contact us. `>blockquote` on three lines each -- Calvin
 
+![The Lovely Octdrey Catburn](https://octodex.github.com/images/octdrey-catburn.jpg)
+> Octdrey Catburn picture
+
 ## Source code
 
-``javascript
+````javascript
 if (isECMAScript){
   return true
 }
