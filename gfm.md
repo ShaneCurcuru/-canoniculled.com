@@ -27,18 +27,6 @@ be cool if you don't have an attitude.	`>blockquote` on first line only -- Calvi
 ![The Lovely Octdrey Catburn](https://octodex.github.com/images/octdrey-catburn.jpg)
 > Octdrey Catburn picture
 
-## Source code
-
-````javascript
-if (isECMAScript){
-  return true
-}
-```
-
-      if indent == spaces(4)
-        then indented the code block shall be
-      end
-
 ## EmojiTable
 
 | :Left-aligned | :Center-aligned: | Right-aligned: :cat2: |
@@ -54,6 +42,19 @@ Changes behavior in files vs. comments/pulls.
 - [ ] This is an incomplete item
 - [ ] If we wanted more leisure, we'd invent machines that do things less efficiently.
 - [ ] "That's the problem with science. You've got a bunch of empiricists trying to describe things of unimaginable wonder." -Calvin 
+
+## Source code
+
+```javascript
+if (isECMAScript){
+  return true
+}
+```
+
+      if indent == spaces(4)
+        then indented the code block shall be
+      end
+
 
 ## Markdown writing help
 
