@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Copyright 2017 Shane Curcuru All rights reserved.
+Licensed under the Apache License, Version 2.0
+Forked from Bootstrap under MIT License.
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canonical Code Configurations</title>
+  <meta property="og:title" content="Canonical Code Configurations">
+  <meta name="description" property="og:description" content="Canonical code configurations - reminders to myself how I did it before.">
+  <link rel="canonical"      href="http://canoniculled.com/">
+  <meta property="og:url" content="http://canoniculled.com/">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://theapacheway.com/assets/images/gravatar.png">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- navbar-brand img and navbar-fixed-top .nav ensure nav encompasses image (height=50) .main-content ensures starts far enough down -->
+  <style type="text/css">
+  .navbar-brand img {
+    margin-bottom: 5px;
+  }
+  .navbar-fixed-top .nav {
+    padding: 15px 0;
+  }
+  .main-content {
+    margin-top: 120px;
+  }
+  p {
+    font-size: 15px;
+  }
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">      
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar">aa</span>
+          <span class="icon-bar">ab</span>
+          <span class="icon-bar">ba</span>
+        </button>
+        <a class="brand brand-name navbar-left" href="http://theapacheway.com/"><img height=50px src="http://theapacheway.com/assets/images/gravatar.png"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/#navbar -->
+    </div><!--/.container -->
+  </nav>
+  
+  <div class="container main-content" role="main">
+    <div class="jumbotron">
+      <h1>Captain's log, supplemental.</h1>
+      <p>Even the plants are emitting a faint warp signature. Our ship has technology which allows a ship exploding in my bag. This is definitely reacting to our ship, sir, their weapons could be considered quite amusing.</p>
+      <button type="button" class="btn btn-danger">FIRE PHASERS!</button>
+      <p>This is a sample Bootstrap file with no JavaScript, just plain styles. <cite>-Shane</cite>  And: https://twitter.com/captain_markov</p>
+    </div>
+    
+    <div class="page-header">
+      <h1>h1. Bootstrap heading <small>small Secondary Text</small></h1>
+    </div>
+    <p class="lead">p.lead</p>
+    <p>This text <mark>is mark element</mark>.</p>
+    <p class="text-left">.text-left aligned. <abbr title="attribute"></abbr></p>
+    <p class="text-center">.text-center For example, <code>&lt;code&gt;</code> elements are inline.</p>
+    <p class="text-right">.text-right Press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd> keycaps display with kbd element inline.</p>
+    <blockquote>
+      <p>blockquote-p Stellar flares are increasing in magnitude and frequency. Raise navigational shields.</p>
+      <footer>footer The First Officer <cite title="ST:NG">cite Star Trek</cite></footer>
+    </blockquote>
+    <p class="text-muted">p|span .text-muted</p>
+    <p class="text-primary">p|span .text-prmary</p>
+    <blockquote class="pull-right">
+      blockquote.pull-right Sensors show energy readings in your area.  Field strength has increased by 3,000 percent.
+      <small>small Yellow Shirt <cite title="Geordi">Engineering Officer</cite></small>
+    </blockquote>
+    <p class="text-success">p|span .text-success</p>
+    <p class="text-info">p|span .text-info</p>
+    <p class="text-warning">p|span .text-warning</p>
+    <div>
+      <dl>
+        <dt>dl-dt</dt>
+        <dd>means dd is here.</dd>
+        <dt>Red Shirts</dt>
+        <dd>First to take a phaser hit.</dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt>dl.dl-horizontal</dt>  <dd>means dd is over here!</dd>
+        <dt>Engineering</dt>  <dd>Always has it done on time.</dd>
+      </dl>
+    </div>
+    <p class="text-danger">p|span .text-danger</p>
+    
+    <div class="page-header">
+      <h1>Alerts</h1>
+    </div>
+    <div class="alert alert-success" role="alert">
+      <strong>alert alert-success</strong> How long can two people talk about nothing?
+    </div>
+    <div class="alert alert-info" role="alert">
+      <strong>alert alert-info</strong> It indicates a synchronic distortion in the areas emanating triolic waves.
+    </div>
+    <div class="alert alert-warning" role="alert">
+      <strong>alert alert-warning</strong> We need to neutralize the homing signal.
+    </div>
+    <div class="alert alert-danger" role="alert">
+      <strong>alert alert-danger</strong> We had a forced chamber explosion in the resonator coil.
+    </div>
+    
+    <div class="page-header">
+      <h1>Buttons</h1>
+    </div>
+    <p>
+      <button type="button" class="btn btn-default">Default</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-link">Link</button>
+    </p>
+    <p>
+      <button type="button" class="btn btn-lg btn-default">btn btn-lg btn-default</button>
+      <button type="button" class="btn btn-sm btn-default">btn btn-sm btn-default</button>
+      <button type="button" class="btn btn-xs btn-default">btn btn-xs btn-default</button>
+      <a class="btn btn-default" href="#" role="button"> a class="btn btn-default" role="button" </a>
+    </p>
+    
+    <div class="page-header">
+      <h1>Panels - To Jefferies Tubes</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">row/col-sm-4 panel panel-default</h3>
+          </div>
+          <div class="panel-body">
+            div class="panel-body"
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">panel panel-primary / panel-heading / panel-title</h3>
+          </div>
+          <div class="panel-body">
+            Set course for Rhomboid Dronegar 006, warp seven.
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">panel-success</h3>
+          </div>
+          <div class="panel-body">
+            Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field.
+          </div>
+        </div>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">panel-info</h3>
+          </div>
+          <div class="panel-body">
+            This should be interesting. Fate.
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">panel-warning</h3>
+          </div>
+          <div class="panel-body">
+            And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them.
+          </div>
+        </div>
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">We have a saboteur aboard.</h3>
+          </div>
+          <div class="panel-body">
+            I'll alert the crew.  Set condition one.
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+    </div>
+    
+    <div class="page-header">
+      <h1>Wells - Of Gravity</h1>
+    </div>
+    <div class="well">
+      <p>What? We're not at all alike! They were just sucked into space.  Ensign Babyface! Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody.</p>
+    </div>
+    
+    
+    <div class="page-header">
+      <h1>Navs - From The Conn</h1>
+    </div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#">Forward</a></li>
+      <li role="presentation"><a href="#">Reverse</a></li>
+      <li role="presentation"><a href="#">Upsidedown</a></li>
+    </ul>
+    <ul class="nav nav-pills" role="tablist">
+      <li role="presentation" class="active"><a href="#">Pill Nav</a></li>
+      <li role="presentation"><a href="#">Water Cup</a></li>
+      <li role="presentation"><a href="#">Medbay</a></li>
+    </ul>
+    
+    <div class="row">
+      <div class="col-sm-4">
+        <p>
+          The Enterprise has been extreme. It has become infected by an unknown planet.
+          Doesn't love always begin that way? With the power to initiate a level two security alert.
+          Computer, are you finished reconstructing the journal of the universe.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          I've had twelve years to think about it.  About four years. I got tired of hearing how young I looked. 
+          I'll alert the crew. Sure. You'd be surprised how far a hug goes with Geordi, or Worf. 
+          It protects fools, little children, and ships named "Enterprise." 
+          The game's not big enough unless it scares you a little. Why don't we just give everybody a promotion and call it a night - 'Commander'? I suggest you drop it, Mr. Data.
+        </p>
+      </div>
+    </div>
+    
+    <p>
+      Computer, has anyone been in my quarters in the last paragraph.
+      The entire nervous system has been depleted of electrochemical energy. Any device like that would produce high levels of triolic waves. 
+      These walls have undergone some kind of selective molecular polarization. I haven't determined if our phaser energy can generate a stable field. We could alter the photons with phase discriminators.
+      Sensors indicate human life forms 30 meters below the planet's surface.  
+      There's no evidence of an advanced communication network. Total guidance system failure, with less than 24 hours' reserve power. Shield effectiveness has been reduced 12 percent. 
+      We have covered the area in a spherical pattern which a ship without warp drive could cross in the given time.
+    </p>
+    
+    <div class="page-header">
+      <h1>Tables</h1>
+      <p>Add .table-bordered for full borders all around; .table-hover; .table-sm cuts cell padding in half; .table-responsive</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>.table-bordered</th>
+              <th>Rank</th>
+              <th>Potion</th>
+              <th>Combadge</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">rowspan 2</td>
+              <td>Captain</td>
+              <td>Veritaserum</td>
+              <td>@picard</td>
+            </tr>
+            <tr>
+              <td>Apple</td>
+              <td>Banannanannas</td>
+              <td>Orange</td>
+            </tr>
+            <tr>
+              <td>2-two?</td>
+              <td>Zephram</td>
+              <td>Cochrane</td>
+              <td>@warpos2</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td colspan="2">Larry the Bird</td>
+              <td>@BirdIsTheWord</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">Panel enclosed table</div>
+          <div class="panel-body">
+            <p>This is a description of below table, that's linked to us with nice outline border</p>
+          </div>
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>.table-condensed</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>            
+      </div>
+    </div>
+    
+    <div class="page-header">
+      <h1>Thumbnails</h1>
+    </div>
+    <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+    
+    <div class="page-header">
+      <h1>Labels - span within H1..H6</h1>
+    </div>
+    <h1>
+      <span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span>
+    </h1>
+    <h2>
+      <span class="label label-default">H2 Default</span>
+    </h2>
+    <h3>
+      <span class="label label-default">H3 Default</span>
+    </h3>
+    <h4>
+      <span class="label label-default">H4 Default</span>
+    </h4>
+    <h5>
+      <span class="label label-default">Babylon 5</span>
+    </h5>
+    <h6>
+      <span class="label label-default">Hexagon Default</span>
+    </h6>
+    <p>
+      <span class="label label-default">Default as a paragraph.</span>
+    </p>
+    
+    <div class="page-header">
+      <h1>Badges - We Don't Need...</h1>
+    </div>
+    <p>
+      <a href="#">Warp Core <span class="badge">42</span></a>
+    </p>
+    <ul class="nav nav-pills" role="tablist">
+      <li role="presentation" class="active"><a href="#">Planet 10 <span class="badge">42</span></a></li>
+      <li role="presentation"><a href="#">Ten Forward</a></li>
+      <li role="presentation"><a href="#">Messages for you sir! <span class="badge">3</span></a></li>
+    </ul>
+    
+    <div class="page-header">
+      <h1>Navbars</h1>
+    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <div class="page-header">
+      <h1>Progress bars</h1>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete</span></div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+      <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+      <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
+    </div>
+    
+    <div class="page-header">
+      <h1>List groups</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <ul class="list-group">
+          <li class="list-group-item">Beam me up</li>
+          <li class="list-group-item">Sensors on screen</li>
+          <li class="list-group-item">Phasers on stun</li>
+          <li class="list-group-item">Turbolift to deck seven</li>
+          <li class="list-group-item">Data, compute the factor</li>
+        </ul>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            Two to beam up
+          </a>
+          <a href="#" class="list-group-item">Sensors on screen</a>
+          <a href="#" class="list-group-item">Phasers on stun</a>
+          <a href="#" class="list-group-item">Turbolift to deck seven</a>
+          <a href="#" class="list-group-item">Data, compute the factor</a>
+        </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">Computer, has anyone been in my quarters in the last paragraph.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">Computer, has anyone been in my quarters in the last paragraph.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">Computer, has anyone been in my quarters in the last paragraph.</p>
+          </a>
+        </div>
+      </div><!-- /.col-sm-4 -->
+    </div>
+  </div> <!-- /container -->
+  
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
