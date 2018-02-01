@@ -1,6 +1,6 @@
-# canoniculled.com
+# [canoniculled.com](http://canoniculled.com/)
 
-Canonical code configurations - reminders to myself how I did it before.
+[Canonical code configurations](http://canoniculled.com/) - reminders to myself how I did it before.
 
 Frameworks and useful code examples in my own inimitable style.
 
@@ -10,4 +10,4 @@ Frameworks and useful code examples in my own inimitable style.
 * [Github Flavored Markdown](gfm.md)
 * [Themes & Images](themes.md)
 
-Copyright © Shane Curcuru 2017 Licensed: Apache License 2.0
+Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2018 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
