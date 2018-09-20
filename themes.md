@@ -17,16 +17,9 @@
 | [Google MDL](https://github.com/google/material-design-lite) _(Apache)_: used on whyIlovetheASF | :tiger: |
 
 - GitHub Pages Supported (CC0)
-- https://pages-themes.github.io/architect/ small sidebar, architect writing /// headers
-- https://github.com/pages-themes/time-machine simple, funky, but narrow and strange with graphics
-- https://pages-themes.github.io/leap-day/ simple left nav of headers, slightly narrow, clean/small text
-- https://pages-themes.github.io/dinky/ bold static left sidebar, right column scrolls - for super-small sites
-- https://pages-themes.github.io/merlot/ centered column, simple banner header (feels very github-ish)
-- https://jekyll.github.io/minima/ super minimal but clean largish text
-- https://pages-themes.github.io/minimal/ wide, clean navbar on left with logo space; small text; clearly two column
-- https://pages-themes.github.io/slate/ old-skool single column with dark simple header
-
-
+  - https://github.com/pages-themes/time-machine simple, funky, but narrow 
+  - https://pages-themes.github.io/leap-day/ nice navigation for single page theme
+  - https://pages-themes.github.io/dinky/ static left column, right column scrolls - for super-small sites
 - https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/ _(MIT)_: HPSTR
 - https://volny.github.io/creative-theme-jekyll/ _(Apache)_: one page with lots of twiddle bootstrappy things, but long single page and lots of graphics
 - https://github.com/streetturtle/jekyll-cv-crafter _(MIT)_: nice one-page, MVC style CV builder
@@ -87,23 +80,3 @@
 - Montserrat - Istok+Web
 - Ovo - Muli
 - `monospace: Ubuntu+Mono`
-
-### Random background images I liked
-
-https://unsplash.com/photos/c5uShPcKLAE BW bridge into background
-https://unsplash.com/photos/jtyIeXi1Goc television in desert
-https://unsplash.com/photos/t-W4_309hi8 pineapple yard
-https://unsplash.com/photos/jN_VbffJHlI BW carousel dramatic
-https://unsplash.com/photos/m0l5J8Lqnzo green morning cup
-https://unsplash.com/photos/M3CIuMoFkAY rowboat, beach
-https://unsplash.com/photos/ZXqE31D8TEk subway alarm box
-https://unsplash.com/photos/uoSEDUu8F-I lone house on water
-https://unsplash.com/photos/UWRqlJcDCXA cappucino bell
-http://cupcake.nilssonlee.se/wp-content/uploads/2014/10/IMG_39382.jpg bird on pole
-https://www.pexels.com/photo/happy-coffee-6347/
-https://www.pexels.com/photo/three-white-cups-6217/
-https://www.pexels.com/photo/coffee-cat-mill-cups-19944/
-https://www.pexels.com/photo/time-watch-moto-360-smartwatch-23475/
-https://www.pexels.com/photo/camera-technology-display-items-261/
-https://www.pexels.com/photo/technology-typewriter-items-collection-1223/
-
