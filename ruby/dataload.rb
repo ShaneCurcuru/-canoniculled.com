@@ -51,6 +51,27 @@ def yaml2json(filename)
   puts JSON.pretty_generate(vhosts)
 end
 
+# New-BSD License http://dan.doezema.com/2012/04/recursively-sort-ruby-hash-by-key/
+class Hash
+  def sort_by_key(recursive = false, &block)
+    self.keys.sort(&block).reduce({}) do |seed, key|
+      seed[key] = self[key]
+      if recursive && seed[key].is_a?(Hash)
+        seed[key] = seed[key].sort_by_key(true, &block)
+      end
+      seed
+    end
+  end
+end
+
+# Turn nested JSON hashes into sorted .out
+def sortjsonfile(filename)
+  h = JSON.parse(File.read(filename))
+  File.open("#{filename}.out", "w") do |f|
+    f.write(JSON.pretty_generate(h.sort_by_key(true)))
+  end
+end
+
 # Process a directory of files of certain extension
 def scan_dir(dir)
   headers = []
