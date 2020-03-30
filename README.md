@@ -2,6 +2,8 @@
 
 [Canonical code configurations](http://canoniculled.com/) - reminders to myself how I did it before.
 
+**New!** [How to run a Mutual Aid site in your town during the days of Coronavirus](https://mutualaidarlington.org/?cc).
+
 Frameworks and useful code examples in my own inimitable style.
 
 * [Bootstrap3 - no JS](bootstrap3.html)
