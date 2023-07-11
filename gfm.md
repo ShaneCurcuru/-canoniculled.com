@@ -13,7 +13,7 @@ Full blank line above makes new para.  Markdown code can be escaped
 with the obvious `\` backslash, like: this \*escapes markdown syntax\* and \|our-old-project\|.
 
 [GH magically links](bootstrap3.html) with relative files within a repo, cross-branch sometimes.
-User alerting is both @ShaneCurcuru - me on local repos; @apache/ShaneCurcuru - me in the org.
+User alerting is both @ShaneCurcuru - me on local repos; @apache/ShaneCurcuru - me in the org.  They also autolinks www.apache.org.  And without the trailing period.
 
 > There's never enough time to do all the nothing you want. `>blockquote` on one line -- Calvin 
 
